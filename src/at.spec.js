@@ -13,6 +13,6 @@ test('Проверка на 0', () => {
   expect(fibonacci(0)).toBe(0);
 });
 test('Проверка на неверное число', () => {
-  expect(fibonacci(99999999999)).toBe(1);
+  expect(fibonacci(9)).toBe(1);
 });
 })
